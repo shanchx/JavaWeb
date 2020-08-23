@@ -8,7 +8,7 @@ import javax.servlet.http.HttpSessionListener;
 
 public class OnlineUserListener implements ServletContextListener, HttpSessionListener{
 
-	private int sum;//存放在线用户数
+	private int sum;//存放在线用户数是
 	private ServletContext app;//全局变量，存放application对象
 	
 	@Override
